@@ -1,0 +1,12 @@
+[directory]
+truncation_length = 4
+truncate_to_repo = false
+
+[time]
+disabled = false
+
+[git_branch]
+symbol = "🌱"
+
+[kubernetes]
+disabled = false
