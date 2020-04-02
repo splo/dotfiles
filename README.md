@@ -13,5 +13,4 @@ rsync --recursive --verbose --exclude '.git' /tmp/dotfiles.git/ $HOME/
 rm -r /tmp/dotfiles.git
 alias dotfiles='/usr/bin/env git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 dotfiles config --local status.showUntrackedFiles no
-dotfiles remote add origin https://github.com/splo/dotfiles.git
 ```
