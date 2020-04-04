@@ -4,6 +4,7 @@
 
 - [Homebrew bundle](https://github.com/Homebrew/homebrew-bundle) brewfile.
 - [Starship](https://starship.rs/) prompt.
+- [Phoenix](https://github.com/kasper/phoenix) script.
 
 ## Requirements
 
