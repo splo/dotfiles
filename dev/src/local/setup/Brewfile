@@ -3,27 +3,47 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "splo/tap"
+# Shell plugin manager
 brew "antibody"
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Modern replacement for 'ls'
 brew "exa"
+# Simple, fast and user-friendly alternative to find
 brew "fd"
+# Fast, simple fuzzy text selector with an advanced scoring algorithm
 brew "fzy"
+# Distributed revision control system
 brew "git"
+# Render markdown on the CLI
 brew "glow"
+# Improved top (interactive process viewer)
 brew "htop"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# Mac App Store command-line interface
 brew "mas"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Cross-shell prompt for astronauts
 brew "starship"
+# Tool to build, change, and version infrastructure
 brew "terraform"
+# Executes a program periodically, showing output fullscreen
 brew "watch"
+# XPath/XQuery 3.0, JSONiq interpreter to extract data from HTML/XML/JSON
 brew "xidel"
+# Process YAML documents from the CLI
 brew "yq"
+# UNIX shell (command interpreter)
 brew "zsh"
+# Cleanup unused Docker resources.
 brew "splo/tap/docker-brennen"
 cask "font-firacode-nerd-font"
 cask "font-inconsolata-nerd-font"
 cask "font-robotomono-nerd-font"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 cask "phoenix"
+# Collaboration platform for API development
 cask "postman"
