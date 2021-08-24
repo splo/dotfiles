@@ -1,12 +1,18 @@
+tap "git-chglog/git-chglog"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "microsoft/git"
 tap "splo/tap"
 # Shell plugin manager
 brew "antibody"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
@@ -17,14 +23,20 @@ brew "fzy"
 brew "git"
 # Render markdown on the CLI
 brew "glow"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Improved top (interactive process viewer)
 brew "htop"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Mac App Store command-line interface
 brew "mas"
+# Platform built on V8 to build network applications
+brew "node"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Rust toolchain installer
+brew "rustup-init"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Tool to build, change, and version infrastructure
@@ -37,13 +49,27 @@ brew "xidel"
 brew "yq"
 # UNIX shell (command interpreter)
 brew "zsh"
+# CHANGELOG generator implemented in Go (Golang).
+brew "git-chglog/git-chglog/git-chglog"
 # Cleanup unused Docker resources.
 brew "splo/tap/docker-brennen"
+brew "splo/tap/git-delete-merged-branches"
+# App to build and share containerized applications and microservices
+cask "docker"
 cask "font-firacode-nerd-font"
 cask "font-inconsolata-nerd-font"
+# Typeface made for developers
+cask "font-jetbrains-mono"
 cask "font-robotomono-nerd-font"
+cask "git-credential-manager-core"
+# Web browser
+cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 cask "phoenix"
 # Collaboration platform for API development
 cask "postman"
+# Open-source code editor
+cask "visual-studio-code"
